@@ -55,3 +55,30 @@ h3{
 .nav-icon:hover {
   transform: scale(1.1);
 }
+
+.news-list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.news-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 最後の線消す */
+.news-item:last-child {
+  border-bottom: none;
+}
+
+/* 日付 */
+.news-date {
+  font-size: 0.85rem;
+  color: #999;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.news-item p {
+  line-height: 1.8;
+}
