@@ -1,0 +1,40 @@
+ body {
+      font-family: "Zen Maru Gothic", sans-serif;
+      background: linear-gradient(to bottom, #fdfefe, #eef5ff);
+      color: #333;
+      line-height: 1.9;
+    }
+
+    .main-img {
+      max-height: 500px;
+      object-fit: contain;
+    }
+
+    .story-box {
+      max-width: 700px;
+      margin: 80px auto 0;
+      padding: 30px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .story-box p {
+      margin-bottom: 1.5em;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .back-btn {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .story-box {
+        margin: 40px 15px;
+        padding: 20px;
+      }
+    }
