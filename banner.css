@@ -1,0 +1,51 @@
+.reserve-banner {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, #1e1e1e, #444);
+  color: #fff;
+  text-decoration: none;
+  padding: 40px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  background: url("image/school of fish.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.reserve-banner:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.reserve-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.reserve-content p {
+  margin: 0;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.reserve-label {
+  display: inline-block;
+  background: #ff4d4d;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.reserve-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.reserve-content {
+  position: relative;
+  z-index: 1;
+}
